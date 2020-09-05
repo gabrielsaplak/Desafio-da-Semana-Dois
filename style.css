@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css?family=Rajdhani&display=swap'); 
+html, body {
+    margin: 0;
+}
+header {
+    background-color: black;
+    color: white;
+    padding: 10px 10px 10px 10px;
+    height: 55px;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+}
+#size {
+    width: 45px;
+    position: absolute;
+    padding-top: 5px;
+    margin-left: 5%;
+}
+#menu {
+    font-family: Rajdhani;
+    font-size: 16px;
+    font-weight: bold;
+    float: right;
+    margin-right: 5%;
+    margin-top: 5px;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+li {
+    color: rgb(229, 255, 227);
+    margin: 0;
+    float: left;
+
+    list-style: none;
+    text-decoration: none;
+}
+.lin:link, .lin:visited {
+    padding: 10px 15px 10px 15px;
+    color: rgb(229, 255, 227);
+    text-decoration: none;
+    display: inline-block;
+    border: 1px;
+    border-radius: 10px;
+}
+.lin:hover, .lin:active {
+    background-color: rgb(229, 255, 227);
+    color: #072109;
+    text-decoration: none;
+}
+#capa {
+    background: url("img/pexels-photo-236380.jpeg");
+    height: 100%;
+    text-align: center;
+    background-size: cover;
+    display: block;
+    background-position: center;
+}
+#titulo {
+    font-family: Rajdhani;
+    font-size: 55px;
+    font-weight: 900;
+    padding-top: 20%;
+    margin: 0;
+    color: #072109;
+}
+#subtitulo {
+    font-family: Rajdhani;
+    font-size: 23px;
+    font-weight: 600;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding: 10px;
+    border: 1px;
+    border-radius: 10px;
+    margin-top: 0;
+    color: #072109;
+    background-color: rgb(229, 255, 227, .8);
+}
+#acao {
+    font-family: Rajdhani;
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 0;
+    text-decoration: none;
+}
+.cor:link, .cor:visited {
+    padding: 5px 10px 5px 10px;
+    color: #072109;
+    text-decoration: none;
+    display: inline-block;
+    border: 2px solid #072109;
+    border-radius: 10px;
+    background-color: rgb(229, 255, 227, .8)
+}
+.cor:hover, .cor:active {
+    background-color: #072109;
+    color: rgb(229, 255, 227);
+    text-decoration: none;
+}
+#projeto {
+    background-color: #72727250;
+}
+.tamanho {
+    width: 55px;
+}
+.coluna {
+    float: left;
+    padding: 0 5%;
+    position: relative;
+    width: 40%;
+}
+section {
+    padding: 2% 4% 2% 4%;
+    float: left;
+}
+#proj {
+    font-family: Rajdhani;
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: 0;
+    color: #072109;
+    text-align: center;
+}
+#format {
+    font-family: Rajdhani;
+    font-size: 20px;
+    font-weight: 600;
+    color: #072109;
+    text-align: justify;
+    text-indent: 45px;
+    width: 100%;
+}
+.col {
+    float: left;
+    padding: 0 5%;
+    position: relative;
+    width: 15%;
+}
+#met {
+    margin-top: 0;
+    font-family: Rajdhani;
+    font-size: 25px;
+    font-weight: 600;
+    color: #072109;
+    text-align: center;
+}
+.mets {
+    font-family: Rajdhani;
+    font-size: 23px;
+    font-weight: 600;
+    color: #072109;
+    text-align: center;
+}
+.just {
+    font-family: Rajdhani;
+    font-size: 20px;
+    font-weight: 600;
+    color: #072109;
+    text-align: left;
+}
+#top {
+    margin-top: 40px;
+}
+#me {
+    background-color: #e5eff5;
+}
+#rod {
+    background-color: rgb(229, 255, 227, .8);
+    margin: 0;
+    padding: 20px 0 20px 20px;
+    width: 99%;
+}
+h5 {
+    margin: 0;
+    padding: 0 0 20px 0;
+    text-align: left;
+    font-family: Rajdhani;
+    font-size: 25px;
+    font-weight: bold;
+    color: #072109;    
+}
+footer {
+    text-align: justify;
+    font-family: Rajdhani;
+    font-size: 20px;
+    font-weight: 600;
+    color: #072109;
+}
